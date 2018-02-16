@@ -473,4 +473,5 @@ PRODUCT_PACKAGES += \
     ims \
     imscmlibrary \
     imssettings \
-    TimeService
+    TimeService \
+    Footej

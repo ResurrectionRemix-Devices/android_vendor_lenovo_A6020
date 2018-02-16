@@ -99,6 +99,18 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+
+# Footej Camera
+includr $(CLEAR_VARS)
+LOCAL_MODULE := Footej
+LOCAL_MODULE_OWNER := FootejTeam
+LOCAL_SRC_FILES := proprietary/priv-app/Footej/footej.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := Camera2 Snap
+include $(BUILD_PREBUILT)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
 LOCAL_MODULE_OWNER := lenovo
