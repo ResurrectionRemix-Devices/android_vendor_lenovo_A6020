@@ -101,7 +101,7 @@ include $(BUILD_PREBUILT)
 
 
 # Footej Camera
-includr $(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := Footej
 LOCAL_MODULE_OWNER := FootejTeam
 LOCAL_SRC_FILES := proprietary/priv-app/Footej/footej.apk
